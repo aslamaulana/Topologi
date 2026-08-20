@@ -1,10 +1,84 @@
-<mxfile host="app.diagrams.net">
-  <diagram name="Page-1" id="KFBnwaknmaFP-BXvjORh">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2026-08-20T00:00:00.000Z" agent="Gemini" version="21.0.0" type="device">
+  <diagram id="azure-topology" name="Government Cloud Architecture">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#FFFFFF">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+
+        <!-- Internet / Gov Cloud -->
+        <mxCell id="internet" value="INTERNET / GOV CLOUD" style="shape=mxgraph.azure.cloud;whiteSpace=wrap;html=1;fillColor=#0078D4;strokeColor=none;fontColor=#ffffff;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="484" y="40" width="202" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Edge Router / DDoS Protection -->
+        <mxCell id="edge" value="EDGE ROUTER /&#xa;DDoS PROTECTION" style="shape=mxgraph.azure.security.ddos_protection_plans;whiteSpace=wrap;html=1;fillColor=#50e6ff;strokeColor=#ffffff;strokeWidth=2;fontColor=#1e1e1e;fontStyle=1;fontSize=11;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="560" y="150" width="50" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Firewall / WAF HA -->
+        <mxCell id="firewall" value="FIREWALL / WAF HA&#xa;ACTIVE / STANDBY" style="shape=mxgraph.azure.security.web_application_firewall_policies;whiteSpace=wrap;html=1;fillColor=#0078D4;strokeColor=none;fontColor=#1e1e1e;fontStyle=1;fontSize=11;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="560" y="260" width="50" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Load Balancer HA / VIP -->
+        <mxCell id="lb" value="LOAD BALANCER&#xa;HA / VIP" style="shape=mxgraph.azure.networking.load_balancer_feature;whiteSpace=wrap;html=1;fillColor=#0078D4;strokeColor=none;fontColor=#1e1e1e;fontStyle=1;fontSize=11;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="560" y="370" width="50" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Application Cluster -->
+        <mxCell id="app" value="APPLICATION CLUSTER&#xa;APP-01..N" style="shape=mxgraph.azure.compute.app_services;whiteSpace=wrap;html=1;fillColor=#0078D4;strokeColor=none;fontColor=#1e1e1e;fontStyle=1;fontSize=11;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="360" y="480" width="50" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Database Cluster -->
+        <mxCell id="db" value="DATABASE CLUSTER&#xa;DB-01..N" style="shape=mxgraph.azure.databases.sql_database;whiteSpace=wrap;html=1;fillColor=#0078D4;strokeColor=none;fontColor=#1e1e1e;fontStyle=1;fontSize=11;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="760" y="480" width="50" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- One Data / Data Lake / DWH -->
+        <mxCell id="datalake" value="ONE DATA /&#xa;DATA LAKE / DWH" style="shape=mxgraph.azure.storage.data_lake_storage;whiteSpace=wrap;html=1;fillColor=#0078D4;strokeColor=none;fontColor=#1e1e1e;fontStyle=1;fontSize=11;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="560" y="590" width="50" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- AI / Analytics -->
+        <mxCell id="ai" value="AI / ANALYTICS&#xa;ML / BI / BIG DATA" style="shape=mxgraph.azure.ai_plus_machine_learning.machine_learning_studio_workspace;whiteSpace=wrap;html=1;fillColor=#0078D4;strokeColor=none;fontColor=#1e1e1e;fontStyle=1;fontSize=11;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="560" y="690" width="50" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Command Center -->
+        <mxCell id="soc" value="COMMAND CENTER&#xa;SOC / NOC / GOV" style="shape=mxgraph.azure.management_governance.monitor;whiteSpace=wrap;html=1;fillColor=#0078D4;strokeColor=none;fontColor=#1e1e1e;fontStyle=1;fontSize=11;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="560" y="790" width="50" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Connectors -->
+        <mxCell id="c1" edge="1" parent="1" source="internet" target="edge" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0078D4;strokeWidth=2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" edge="1" parent="1" source="edge" target="firewall" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0078D4;strokeWidth=2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" edge="1" parent="1" source="firewall" target="lb" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0078D4;strokeWidth=2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" edge="1" parent="1" source="lb" target="app" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0078D4;strokeWidth=2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" edge="1" parent="1" source="app" target="db" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0078D4;strokeWidth=2;startArrow=classic;startFill=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" edge="1" parent="1" source="app" target="datalake" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0078D4;strokeWidth=2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c7" edge="1" parent="1" source="db" target="datalake" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0078D4;strokeWidth=2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c8" edge="1" parent="1" source="datalake" target="ai" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0078D4;strokeWidth=2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9" edge="1" parent="1" source="ai" target="soc" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0078D4;strokeWidth=2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
       </root>
     </mxGraphModel>
-  </diagram>
-</mxfile>
+  </mxfile>
