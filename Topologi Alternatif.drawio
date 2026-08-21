@@ -1,9 +1,20 @@
 <mxfile host="app.diagrams.net">
   <diagram id="r-8u4tNGu32o4JEHEzaC" name="Page-1">
-    <mxGraphModel dx="242351" dy="176610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="368151" dy="258010" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="AzWxRX1ogZIR8Bpj9xl2-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeColor=#66B2FF;" value="" vertex="1">
+          <mxGeometry height="230" width="320.14" x="-9290" y="-5250" as="geometry" />
+        </mxCell>
+        <mxCell id="AzWxRX1ogZIR8Bpj9xl2-24" edge="1" parent="1" source="AzWxRX1ogZIR8Bpj9xl2-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="AzWxRX1ogZIR8Bpj9xl2-4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-8717.289999999979" y="-5270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AzWxRX1ogZIR8Bpj9xl2-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeColor=#66B2FF;" value="" vertex="1">
+          <mxGeometry height="105" width="251" x="-9075.5" y="-5405" as="geometry" />
+        </mxCell>
         <mxCell id="e1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;strokeColor=#0078D4;" />
         <mxCell id="e2" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;strokeColor=#0078D4;" />
         <mxCell id="e3" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;strokeColor=#0078D4;" />
@@ -17,50 +28,56 @@
         <mxCell id="AzWxRX1ogZIR8Bpj9xl2-2" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/identity/Entra_Internet_Access.svg;fontColor=#003366;" value="" vertex="1">
           <mxGeometry height="68" width="68" x="-8980" y="-5490" as="geometry" />
         </mxCell>
-        <mxCell id="AzWxRX1ogZIR8Bpj9xl2-3" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Virtual_Router.svg;" value="" vertex="1">
-          <mxGeometry height="68" width="68" x="-8980" y="-5380" as="geometry" />
+        <mxCell id="AzWxRX1ogZIR8Bpj9xl2-3" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Virtual_Router.svg;fontStyle=1" value="Router" vertex="1">
+          <mxGeometry height="47.71" width="47.71" x="-8969.859999999999" y="-5385" as="geometry" />
         </mxCell>
-        <mxCell id="AzWxRX1ogZIR8Bpj9xl2-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeColor=#66B2FF;" value="" vertex="1">
-          <mxGeometry height="230" width="238" x="-8840" y="-5290" as="geometry" />
+        <mxCell id="AzWxRX1ogZIR8Bpj9xl2-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeColor=#3399FF;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="240" width="238" x="-8830" y="-5250" as="geometry" />
         </mxCell>
         <mxCell id="AzWxRX1ogZIR8Bpj9xl2-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;fontColor=#003366;fontStyle=1" value="Server Monitoring" vertex="1">
-          <mxGeometry height="30" width="130" x="-8830" y="-5270" as="geometry" />
+          <mxGeometry height="30" width="130" x="-8820" y="-5231" as="geometry" />
         </mxCell>
         <mxCell id="AzWxRX1ogZIR8Bpj9xl2-6" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/assets/azure/1/Docker.svg;" value="" vertex="1">
-          <mxGeometry height="40" width="47.71" x="-8680" y="-5275" as="geometry" />
+          <mxGeometry height="40" width="47.71" x="-8670" y="-5236" as="geometry" />
         </mxCell>
         <mxCell id="AzWxRX1ogZIR8Bpj9xl2-16" edge="1" parent="1" source="AzWxRX1ogZIR8Bpj9xl2-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classicThin;endFill=1;strokeWidth=1;curved=0;startSize=5;endSize=2;strokeColor=#66B2FF;" target="AzWxRX1ogZIR8Bpj9xl2-11" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AzWxRX1ogZIR8Bpj9xl2-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#66FFB3;" value="" vertex="1">
-          <mxGeometry height="40" width="200" x="-8820" y="-5220" as="geometry" />
+        <mxCell id="AzWxRX1ogZIR8Bpj9xl2-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3399FF;" value="" vertex="1">
+          <mxGeometry height="40" width="200" x="-8810" y="-5181" as="geometry" />
         </mxCell>
         <mxCell id="AzWxRX1ogZIR8Bpj9xl2-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#007FFF;" value="Zabbix" vertex="1">
-          <mxGeometry height="30" width="60" x="-8810" y="-5215" as="geometry" />
+          <mxGeometry height="30" width="60" x="-8800" y="-5176" as="geometry" />
         </mxCell>
-        <mxCell id="AzWxRX1ogZIR8Bpj9xl2-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#66FFB3;" value="" vertex="1">
-          <mxGeometry height="40" width="200" x="-8821" y="-5168" as="geometry" />
+        <mxCell id="AzWxRX1ogZIR8Bpj9xl2-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3399FF;" value="" vertex="1">
+          <mxGeometry height="40" width="200" x="-8811" y="-5129" as="geometry" />
         </mxCell>
-        <mxCell id="AzWxRX1ogZIR8Bpj9xl2-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#66FFB3;" value="" vertex="1">
-          <mxGeometry height="40" width="200" x="-8821" y="-5120" as="geometry" />
+        <mxCell id="AzWxRX1ogZIR8Bpj9xl2-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3399FF;" value="" vertex="1">
+          <mxGeometry height="40" width="200" x="-8811" y="-5081" as="geometry" />
         </mxCell>
         <mxCell id="AzWxRX1ogZIR8Bpj9xl2-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#007FFF;" value="Grafana" vertex="1">
-          <mxGeometry height="30" width="60" x="-8810" y="-5165" as="geometry" />
+          <mxGeometry height="30" width="60" x="-8800" y="-5126" as="geometry" />
         </mxCell>
         <mxCell id="AzWxRX1ogZIR8Bpj9xl2-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Dashboard Monitoring" vertex="1">
-          <mxGeometry height="30" width="60" x="-8717.29" y="-5165" as="geometry" />
+          <mxGeometry height="30" width="60" x="-8707.29" y="-5126" as="geometry" />
         </mxCell>
         <mxCell id="AzWxRX1ogZIR8Bpj9xl2-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Network Monitoring Tool" vertex="1">
-          <mxGeometry height="30" width="100" x="-8737.29" y="-5215" as="geometry" />
+          <mxGeometry height="30" width="100" x="-8727.29" y="-5176" as="geometry" />
         </mxCell>
         <mxCell id="AzWxRX1ogZIR8Bpj9xl2-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#007FFF;" value="Bot Telegram" vertex="1">
-          <mxGeometry height="30" width="60" x="-8810" y="-5115" as="geometry" />
+          <mxGeometry height="30" width="60" x="-8800" y="-5076" as="geometry" />
         </mxCell>
         <mxCell id="AzWxRX1ogZIR8Bpj9xl2-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Notifikasi" vertex="1">
-          <mxGeometry height="30" width="60" x="-8717.29" y="-5115" as="geometry" />
+          <mxGeometry height="30" width="60" x="-8707.29" y="-5076" as="geometry" />
         </mxCell>
         <mxCell id="AzWxRX1ogZIR8Bpj9xl2-19" edge="1" parent="1" source="AzWxRX1ogZIR8Bpj9xl2-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="AzWxRX1ogZIR8Bpj9xl2-4">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AzWxRX1ogZIR8Bpj9xl2-25" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Kubernetes.svg;" value="" vertex="1">
+          <mxGeometry height="40" width="41.67" x="-9264" y="-5230" as="geometry" />
+        </mxCell>
+        <mxCell id="AzWxRX1ogZIR8Bpj9xl2-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#003366;fontSize=14;" value="Kubernetes (Claster Server)" vertex="1">
+          <mxGeometry height="30" width="200" x="-9213.89" y="-5225" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
