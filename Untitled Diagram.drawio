@@ -16,17 +16,8 @@
         <mxCell id="i8aP7iiaziHlLX30Z1xH-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeColor=#66B2FF;fillColor=#EAF4FF;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="" vertex="1">
           <mxGeometry height="134.04682274247483" width="259.4055441304346" x="43.09899999999897" y="484.98019984576" as="geometry" />
         </mxCell>
-        <mxCell id="i8aP7iiaziHlLX30Z1xH-6" edge="1" parent="1" source="i8aP7iiaziHlLX30Z1xH-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="i8aP7iiaziHlLX30Z1xH-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="i8aP7iiaziHlLX30Z1xH-7" edge="1" parent="1" source="i8aP7iiaziHlLX30Z1xH-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="i8aP7iiaziHlLX30Z1xH-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="i8aP7iiaziHlLX30Z1xH-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeColor=#66B2FF;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="" vertex="1">
-          <mxGeometry height="116.38795986622077" width="331.136608043478" x="292.3704354347831" y="270.0013377926418" as="geometry" />
-        </mxCell>
-        <mxCell id="Ju6_hA02cWlA74cICha_-5" edge="1" parent="1" source="i8aP7iiaziHlLX30Z1xH-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Ju6_hA02cWlA74cICha_-3">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry height="116.39" width="359.67" x="46.6" y="250" as="geometry" />
         </mxCell>
         <mxCell id="i8aP7iiaziHlLX30Z1xH-9" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/identity/Entra_Internet_Access.svg;fontColor=#003366;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="ISP-01&lt;div&gt;IP Public-01&lt;/div&gt;" vertex="1">
           <mxGeometry height="54.504070115805085" width="54.504070115805085" x="350.20999543478325" y="30.001806020067107" as="geometry" />
@@ -172,8 +163,8 @@
         <mxCell id="i8aP7iiaziHlLX30Z1xH-53" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=0;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="&lt;span style=&quot;color: rgb(0, 120, 212);&quot;&gt;&lt;font&gt;&lt;span&gt;DNS Server 2&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="24.08026755852842" width="90.14750326086946" x="384.3697167391308" y="590.9333771032852" as="geometry" />
         </mxCell>
-        <mxCell id="i8aP7iiaziHlLX30Z1xH-54" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#003366;fontSize=12;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="Router Utama" vertex="1">
-          <mxGeometry height="24.08026755852842" width="184.2565217391303" x="328.6966086956529" y="282.8441471571907" as="geometry" />
+        <mxCell id="i8aP7iiaziHlLX30Z1xH-54" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#003366;fontSize=12;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="Router-01" vertex="1">
+          <mxGeometry height="24.08026755852842" width="184.2565217391303" x="62.66660869565291" y="262.8441471571907" as="geometry" />
         </mxCell>
         <mxCell id="i8aP7iiaziHlLX30Z1xH-55" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeColor=#66B2FF;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="" vertex="1">
           <mxGeometry height="160.53511705685617" width="331.136608043478" x="54.74926086956505" y="919.311939799331" as="geometry" />
@@ -208,9 +199,6 @@
         <mxCell id="i8aP7iiaziHlLX30Z1xH-65" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSize=11;" value="dns primary (DNS Server 1)&lt;div&gt;secondary (DNS Server 2)&lt;/div&gt;" vertex="1">
           <mxGeometry height="24.077351303838256" width="173.463287921687" x="504.07149579106385" y="1039.717401113389" as="geometry" />
         </mxCell>
-        <mxCell id="i8aP7iiaziHlLX30Z1xH-66" edge="1" parent="1" source="i8aP7iiaziHlLX30Z1xH-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.466;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="i8aP7iiaziHlLX30Z1xH-41">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="i8aP7iiaziHlLX30Z1xH-67" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSize=11;" value="(distributed block storage)" vertex="1">
           <mxGeometry height="24.08026755852842" width="156.61804347826072" x="139.1150734782615" y="579.6959189093046" as="geometry" />
         </mxCell>
@@ -223,14 +211,14 @@
         <mxCell id="i8aP7iiaziHlLX30Z1xH-70" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSize=11;" value="Longhorn" vertex="1">
           <mxGeometry height="24.08026755852842" width="156.61804347826072" x="41.7131399815525" y="729.7962533574655" as="geometry" />
         </mxCell>
-        <mxCell id="i8aP7iiaziHlLX30Z1xH-71" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Virtual_Router.svg;fontStyle=1;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="Router" vertex="1">
-          <mxGeometry height="38.24664193594733" width="38.24664193594733" x="444.7597917391323" y="314.1484949832773" as="geometry" />
+        <mxCell id="i8aP7iiaziHlLX30Z1xH-71" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Virtual_Router.svg;fontStyle=0;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="Routing" vertex="1">
+          <mxGeometry height="38.24664193594733" width="38.24664193594733" x="177.7297917391323" y="294.1484949832773" as="geometry" />
         </mxCell>
         <mxCell id="i8aP7iiaziHlLX30Z1xH-72" parent="1" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="Rirewall" vertex="1">
-          <mxGeometry height="38.295652173913034" width="52.43019326086953" x="514.6390776086934" y="314.1484949832773" as="geometry" />
+          <mxGeometry height="38.295652173913034" width="52.43019326086953" x="248.60907760869338" y="294.1484949832773" as="geometry" />
         </mxCell>
         <mxCell id="i8aP7iiaziHlLX30Z1xH-73" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/VPN_Client_Windows.svg;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="VPN WireGuard" vertex="1">
-          <mxGeometry height="39.28878476798949" width="34.23840027424673" x="365.3912949999999" y="313.62675585284194" as="geometry" />
+          <mxGeometry height="39.28878476798949" width="34.23840027424673" x="99.3612949999999" y="293.62675585284194" as="geometry" />
         </mxCell>
         <mxCell id="i8aP7iiaziHlLX30Z1xH-74" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Virtual_Router.svg;fontStyle=1;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="Router" vertex="1">
           <mxGeometry height="38.24664193594733" width="38.24664193594733" x="207.13861717391433" y="963.4590969899664" as="geometry" />
@@ -250,20 +238,29 @@
         <mxCell id="i8aP7iiaziHlLX30Z1xH-79" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/VPN_Client_Windows.svg;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="VPN WireGuard" vertex="1">
           <mxGeometry height="39.28878476798949" width="34.23840027424673" x="540.7626882608688" y="962.9373578595311" as="geometry" />
         </mxCell>
-        <mxCell id="Ju6_hA02cWlA74cICha_-4" edge="1" parent="1" source="Ju6_hA02cWlA74cICha_-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Ju6_hA02cWlA74cICha_-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="Ju6_hA02cWlA74cICha_-1" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/identity/Entra_Internet_Access.svg;fontColor=#003366;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="ISP-02&lt;div&gt;IP Public-02&lt;/div&gt;" vertex="1">
           <mxGeometry height="54.504070115805085" width="54.504070115805085" x="513.72" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ju6_hA02cWlA74cICha_-6" edge="1" parent="1" source="Ju6_hA02cWlA74cICha_-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="i8aP7iiaziHlLX30Z1xH-8">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Ju6_hA02cWlA74cICha_-2" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Load_Balancers.svg;fontStyle=0" value="Load Balancer" vertex="1">
+          <mxGeometry height="41.29" width="41.29" x="328.97" y="291.11" as="geometry" />
         </mxCell>
-        <mxCell id="Ju6_hA02cWlA74cICha_-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeColor=#66B2FF;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="" vertex="1">
-          <mxGeometry height="96.32" width="331.14" x="292.97" y="148.06" as="geometry" />
+        <mxCell id="Ju6_hA02cWlA74cICha_-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeColor=#66B2FF;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="116.39" width="359.67" x="445.42" y="250" as="geometry" />
         </mxCell>
-        <mxCell id="Ju6_hA02cWlA74cICha_-2" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Load_Balancers.svg;fontStyle=1" value="Load Balancer" vertex="1">
-          <mxGeometry height="45.62" width="45.62" x="435.13000000000005" y="165.41" as="geometry" />
+        <mxCell id="Ju6_hA02cWlA74cICha_-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#003366;fontSize=12;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="Router-02" vertex="1">
+          <mxGeometry height="24.08026755852842" width="184.2565217391303" x="463.20660869565285" y="262.8441471571907" as="geometry" />
+        </mxCell>
+        <mxCell id="Ju6_hA02cWlA74cICha_-9" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Virtual_Router.svg;fontStyle=0;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="Routing" vertex="1">
+          <mxGeometry height="38.24664193594733" width="38.24664193594733" x="578.2697917391324" y="294.1484949832773" as="geometry" />
+        </mxCell>
+        <mxCell id="Ju6_hA02cWlA74cICha_-10" parent="1" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="Rirewall" vertex="1">
+          <mxGeometry height="38.295652173913034" width="52.43019326086953" x="649.1490776086935" y="294.1484949832773" as="geometry" />
+        </mxCell>
+        <mxCell id="Ju6_hA02cWlA74cICha_-11" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/VPN_Client_Windows.svg;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="VPN WireGuard" vertex="1">
+          <mxGeometry height="39.28878476798949" width="34.23840027424673" x="499.9012949999999" y="293.62675585284194" as="geometry" />
+        </mxCell>
+        <mxCell id="Ju6_hA02cWlA74cICha_-12" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Load_Balancers.svg;fontStyle=0" value="Load Balancer" vertex="1">
+          <mxGeometry height="41.29" width="41.29" x="729.51" y="291.11" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
